@@ -1,0 +1,86 @@
+/* configuração geral */
+main{
+    height: 50vh;
+}
+
+/* layout da home */
+#page-inner{
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+/* configuração da apresentação */
+#apresentation{
+    height: 80vh;
+    width: 60%;
+    padding: 50px 50px 0px 50px;
+}
+span{
+    text-decoration: line-through;
+    font-family: 'La Belle Aurore',cursive;
+    opacity: 0.5;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.hi{
+    font-size: 80px;
+    transition: all 0.5s;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    
+}
+.hi:hover{
+    color: #2ECC71;
+    -webkit-filter: drop-shadow(15px 10px 5px #2ECC71);
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+}
+
+.marcos{
+    font-size: 100px;
+    transition: all 0.5s;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.marcos:hover{
+    color: #2ECC71;
+    -webkit-filter: drop-shadow(15px 10px 5px #2ECC71);
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+}
+
+.front{
+    font-size: 100px;
+    transition: all 0.5s;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.front:hover{
+    color: #2ECC71;
+    -webkit-filter: drop-shadow(15px 10px 5px #2ECC71);
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+}
+
+p{
+    font-size: 36px;
+    font-style: italic;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+
+/* configuração do contato */
+.girf-animation{
+    height: 85vh;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.girf-animation img{
+    height: 50%;
+}

@@ -1,0 +1,97 @@
+/* configuração geral */
+main{
+    height: 50vh;
+}
+
+/* layout da home */
+.page-inner{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+span{
+    text-decoration: line-through;
+    font-family: 'La Belle Aurore',cursive;
+    opacity: 0.5;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+/* configurando as skill text */
+
+.skills{
+    border: 1px solid #fff;
+    height: 80vh;
+    width: 60%;
+    padding: 50px 50px 0px 50px;
+}
+
+.skills h1{
+    font-size: 80px;
+    transition: all 0.5s;
+    margin: 50px;
+}
+
+.skills h1:hover{
+    color: #2ECC71;
+    -webkit-filter: drop-shadow(15px 10px 5px #2ECC71);
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+}
+
+
+.skills p{
+    font-size: 24px;
+    margin: 50px;
+    transition: 0.8s;
+}
+
+.skills p:hover{
+    color: #2ECC71;
+    text-decoration: underline;
+}
+
+
+/* configurando graficos e experiencias */
+.skills-grafics{
+    border: 1px solid #fff;
+    height: 85vh;
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.grafic{
+    border: #2ECC71 1px solid;
+    width: 100%;
+    height: 40vh;
+}
+
+.experience{
+    border: #2ECC71 1px solid;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.front, .back{
+    width: 50%;
+    border: #2ECC71 1px solid;
+    height: 100%;
+    background-color: #17202A;
+    text-align: center;
+    padding: 60px;
+}
+
+p{
+    padding: 50px;
+}
+
+
+
+
+
+
