@@ -20,7 +20,6 @@ span{
 /* configurando as skill text */
 
 .skills{
-    border: 1px solid #fff;
     height: 80vh;
     width: 60%;
     padding: 50px 50px 0px 50px;
@@ -46,14 +45,50 @@ span{
 }
 
 .skills p:hover{
-    color: #2ECC71;
-    text-decoration: underline;
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+
+/* configurando grafico de com preenchimento */
+
+.skills-grafics{
+    padding-right: 35px;
+}
+
+.grafic{
+    padding: 50px 0px 0px 0px;
+}
+
+.chart {
+    margin-bottom: 2rem;
+}
+
+.chart span {
+    font-size: 18px;
+    font-family: font-file-82132;
+    margin-bottom: 7px;
+    display: block;
+}
+
+.chart footer {
+    background-color: #373737;
+    height: 2px;
+    width: 100%;
+}
+
+.chart footer div {
+    width: 0;
+    height: 100%;
+    background-color: #2ECC71;
+    -webkit-transition: width 1.3s ease-out;
+    -o-transition: width 1.3s ease-out;
+    transition: width 1.3s ease-out;
 }
 
 
 /* configurando graficos e experiencias */
 .skills-grafics{
-    border: 1px solid #fff;
     height: 85vh;
     width: 40%;
     display: flex;
@@ -63,31 +98,41 @@ span{
 }
 
 .grafic{
-    border: #2ECC71 1px solid;
+    
     width: 100%;
     height: 40vh;
 }
 
 .experience{
-    border: #2ECC71 1px solid;
     width: 100%;
     height: 60vh;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
+
+.experience:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
 
 .front, .back{
     width: 50%;
-    border: #2ECC71 1px solid;
     height: 100%;
     background-color: #17202A;
     text-align: center;
-    padding: 60px;
+    cursor: pointer;
+    transition: all 0.5s;
 }
 
-p{
+.front{
+    border-right: 1px solid #2ECC71;
+}
+
+.front p, .front h1, .front h4, .back p, .back h1, .back h4{
     padding: 50px;
+    background-color: #17202A;
 }
 
 
