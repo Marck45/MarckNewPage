@@ -8,13 +8,15 @@ import { AppComponent } from './app.component';
 import { NavAsideBarComponent } from './component/nav-aside-bar/nav-aside-bar.component';
 import { HomeAboutComponent } from './component/home-about/home-about.component';
 import { MyskillsComponent } from './component/myskills/myskills.component';
+import { WorksComponent } from './component/works/works.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavAsideBarComponent,
     HomeAboutComponent,
-    MyskillsComponent
+    MyskillsComponent,
+    WorksComponent
   ],
   imports: [
     BrowserModule,
