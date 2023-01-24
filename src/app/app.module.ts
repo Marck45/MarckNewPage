@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { GoogleMapsModule } from '@angular/google-maps'
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -11,6 +12,7 @@ import { MyskillsComponent } from './component/myskills/myskills.component';
 import { WorksComponent } from './component/works/works.component';
 import { ContactComponent } from './component/contact/contact.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,12 +20,14 @@ import { ContactComponent } from './component/contact/contact.component';
     HomeAboutComponent,
     MyskillsComponent,
     WorksComponent,
-    ContactComponent
+    ContactComponent,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    GoogleMapsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
