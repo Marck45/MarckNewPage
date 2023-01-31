@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { GoogleMapsModule } from '@angular/google-maps'
+import { CommonModule } from '@angular/common';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -27,7 +28,8 @@ import { ContactComponent } from './component/contact/contact.component';
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule,
-    GoogleMapsModule
+    GoogleMapsModule,
+    CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
