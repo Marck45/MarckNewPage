@@ -14,6 +14,8 @@ import { WorksComponent } from './component/works/works.component';
 import { ContactComponent } from './component/contact/contact.component';
 
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +23,7 @@ import { ContactComponent } from './component/contact/contact.component';
     HomeAboutComponent,
     MyskillsComponent,
     WorksComponent,
-    ContactComponent,
+    ContactComponent
     
   ],
   imports: [

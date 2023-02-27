@@ -133,6 +133,7 @@ span{
 .front p, .front h1, .front h4, .back p, .back h1, .back h4{
     padding: 50px;
     background-color: #17202A;
+    font-size: 20px;
 }
 
 

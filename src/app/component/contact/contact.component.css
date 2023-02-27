@@ -1,17 +1,16 @@
 .container-contact{
     display: flex;
-    
+    justify-content: center;
+    height: 86vh;
 }
 
 /* contatos config */
 
 .contact{
-    width: 50%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     flex-wrap: nowrap;
-    padding: 50px;
 }
 
 .contact-title{
@@ -20,12 +19,6 @@
     margin-bottom: 50px;
 }
 
-.contact-title:hover{
-    color: #2ECC71;
-    -webkit-filter: drop-shadow(15px 10px 5px #2ECC71);
-    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
-    padding: 5px;
-}
 
 .contact-title h1{
     margin-top: 50px;
@@ -33,7 +26,7 @@
 }
 
 .contact-title p{
-    font-size: 20px;
+    font-size: 24px;
 }
 
 
@@ -41,12 +34,12 @@
 
 .contact-form form{
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     flex-wrap: nowrap;
     padding: 5px;
-    width: 100%;
+    
 }
 
 input{
