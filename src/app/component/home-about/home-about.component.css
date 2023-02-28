@@ -84,3 +84,22 @@ p{
 .girf-animation img{
     height: 50%;
 }
+
+
+/* responsive home */
+
+@media (min-width:768px) and (max-width: 1024px){
+
+    .nav-social{
+      display: none;
+    }
+
+    .nav-bar{
+      display: none;
+    }
+
+    .girf-animation{
+        display: none;
+    }
+   
+}
