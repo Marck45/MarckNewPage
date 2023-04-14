@@ -1,7 +1,9 @@
 .container-contact{
     display: flex;
     justify-content: center;
-    height: 100vh;
+    height: 70vh;
+    padding: 5rem;
+    margin-bottom: 2rem;
 }
 
 /* contatos config */
@@ -16,6 +18,7 @@
 .contact-title{
     display: flex;
     flex-direction: column;
+    text-align: center;
     margin-bottom: 50px;
 }
 
@@ -28,7 +31,6 @@
 .contact-title p{
     font-size: 24px;
 }
-
 
 /* Configuração do formulario */
 

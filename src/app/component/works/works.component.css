@@ -25,8 +25,9 @@
   justify-content: space-around;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-top: 3rem;
+  margin-top: 2rem;
   margin-bottom: 2rem;
+  padding: 1rem;
 }
 
 .container a img{

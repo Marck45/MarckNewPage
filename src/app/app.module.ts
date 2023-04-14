@@ -12,6 +12,7 @@ import { HomeAboutComponent } from './component/home-about/home-about.component'
 import { MyskillsComponent } from './component/myskills/myskills.component';
 import { WorksComponent } from './component/works/works.component';
 import { ContactComponent } from './component/contact/contact.component';
+import { FooterComponent } from './component/footer/footer.component';
 
 
 
@@ -23,7 +24,8 @@ import { ContactComponent } from './component/contact/contact.component';
     HomeAboutComponent,
     MyskillsComponent,
     WorksComponent,
-    ContactComponent
+    ContactComponent,
+    FooterComponent
     
   ],
   imports: [
