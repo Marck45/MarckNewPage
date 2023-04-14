@@ -1,6 +1,7 @@
 /* configuração geral */
 main{
-    height: 50vh;
+    height: 100vh;
+    margin-bottom: 1rem;
 }
 
 /* layout da home */

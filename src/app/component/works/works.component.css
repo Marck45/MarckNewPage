@@ -2,12 +2,36 @@
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
+  flex-direction: column;
+  height: 100vh;
+  padding: 5rem;
+  margin-top: 5rem;
 }
 
+.work-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.work-title h1{
+  margin: 1rem;
+}
+
+.work-card{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
 
 .container a img{
-  height: 250px;
-  width: 500px;
+  height: 200px;
+  width: 300px;
   border-radius: 5px;
   
 }
@@ -18,4 +42,12 @@
     -webkit-transform: scale(1);
     transform: scale(1.1);
     border-radius: 5px;
+}
+
+span{
+  text-decoration: line-through;
+  font-family: 'La Belle Aurore',cursive;
+  opacity: 0.5;
+  font-size: 24px;
+  font-weight: bolder;
 }
