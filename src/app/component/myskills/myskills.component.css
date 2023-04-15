@@ -26,20 +26,20 @@ span{
 }
 
 .skills h1{
-    font-size: 80px;
+    font-size: 5rem;
     transition: all 0.5s;
-    margin: 20px;
+    margin: 15px;
 }
 
 .skills h1:hover{
     color: #2ECC71;
     -webkit-filter: drop-shadow(15px 10px 5px #2ECC71);
-    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    filter: drop-shadow(15px 10px 5px rgba(56, 55, 55, 0.5));
 }
 
 
 .skills p{
-    font-size: 24px;
+    font-size: 1.4rem;
     margin: 50px;
     transition: 0.8s;
 }
@@ -92,8 +92,8 @@ span{
     height: 85vh;
     width: 40%;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
 
@@ -102,43 +102,4 @@ span{
     width: 100%;
     height: 40vh;
 }
-
-.experience{
-    width: 100%;
-    height: 50vh;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
-
-.experience:hover{
-    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
-    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
-}
-
-
-.front, .back{
-    width: 50%;
-    height: 100%;
-    background-color: #17202A;
-    border-radius: 1rem;
-    text-align: center;
-    cursor: pointer;
-    transition: all 0.5s;
-}
-
-.front{
-    border-right: 1px solid #2ECC71;
-}
-
-.front p, .front h1, .front h4, .back p, .back h1, .back h4{
-    padding: 20px;
-    background-color: #17202A;
-    font-size: 1.2rem;
-}
-
-
-
-
-
 

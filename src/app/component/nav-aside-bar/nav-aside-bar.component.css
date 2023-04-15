@@ -4,12 +4,12 @@
 }
 
 .nav-container {
-    display: flex;
+    display:flex;
     text-align: center;
 }
 
 .logo {
-    width: 8%;
+    width: 15%;
     cursor: pointer;
 }
 
@@ -19,10 +19,10 @@
 }
 
 .nav-bar {
-    width: 72%;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
+    width: 75%;
 }
 
 /* Configuração do menu nav*/
@@ -37,15 +37,16 @@
 }
 
 .nav-bar ul li {
-    display: inline-block;
-    margin: 35px;
-    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.3rem;
+    min-width: 200px;
 }
 
 .nav-bar li a {
-    display: block;
-    text-align: center;
-    padding: 50px 16px;
+    display: flex;
+    align-items: center;
     text-decoration: none;
     transition: all 0.5s;
     font-weight: bolder;
