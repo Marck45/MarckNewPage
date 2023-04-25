@@ -1,21 +1,23 @@
 /* configuração geral */
 main{
-    height: 90vh;
+    height: 100vh;
     margin-bottom: 1rem;
 }
 
 /* layout da home */
 #page-inner{
-    display: flex;
-    justify-content: start;
-    align-items: flex-start;
+    display: flex;  
 }
 
 /* configuração da apresentação */
 #apresentation{
-    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
     width: 100%;
-    padding: 50px 50px 0px 50px;
+    margin-top: 50px;
 }
 span{
     text-decoration: line-through;
@@ -23,45 +25,58 @@ span{
     opacity: 0.5;
     font-size: 24px;
     font-weight: bolder;
+    margin-bottom: 1rem;
+    background: #17202A;
+    box-shadow:  -6px 6px 12px #090d11,
+             6px -6px 12px #253343;
+    border-radius: 25px;
+    padding: 0.1rem;
 }
 
 .hi{
-    font-size: 5rem;
+    font-size: 3rem;
     transition: all 0.5s;
-    margin-left: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    text-align: center;
     
 }
 .hi:hover{
     color: #2ECC71;
-    -webkit-filter: drop-shadow(15px 10px 5px #2ECC71);
-    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    background: #17202A;
+    box-shadow:  -6px 6px 12px #090d11,
+             6px -6px 12px #253343;
+    border-radius: 25px;
+    padding: 0.5rem;
 }
 
 .marcos{
-    font-size: 6rem;
+    font-size: 4rem;
     transition: all 0.5s;
-    margin-left: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .marcos:hover{
     color: #2ECC71;
-    -webkit-filter: drop-shadow(15px 10px 5px #2ECC71);
-    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    background: #17202A;
+    box-shadow:  -6px 6px 12px #090d11,
+             6px -6px 12px #253343;
+    border-radius: 25px;
+    padding: 0.5rem;
 }
 
 .front{
-    font-size: 7rem;
+    font-size: 5rem;
     transition: all 0.5s;
-    margin-left: 50px;
     margin-bottom: 50px;
 }
 
 .front:hover{
     color: #2ECC71;
-    -webkit-filter: drop-shadow(15px 10px 5px #2ECC71);
-    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    background: #17202A;
+    box-shadow:  -6px 6px 12px #090d11,
+             6px -6px 12px #253343;
+    border-radius: 25px;
+    padding: 0.5rem;
 }
 
 p{
@@ -69,7 +84,7 @@ p{
     font-style: italic;
     align-items: center;
     margin-bottom: 50px;
-    margin-left: 50px;
+    margin-top: 20px;
 }
 
 

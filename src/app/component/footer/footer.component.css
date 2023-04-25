@@ -1,0 +1,82 @@
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    border-radius: 17px;
+    background: #1C2833;
+    box-shadow:  -5px 5px 10px #0b1014,
+                5px -5px 10px #2d4052;
+    padding: 1rem;
+}
+
+/* logo do footer */
+
+.logo-container{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-container img {
+    height: 100%;
+    border-radius: 25px;
+    background: #17202A;
+    box-shadow:  -6px 6px 12px #090d11,
+             6px -6px 12px #253343;
+}
+
+/* status footer  */
+
+.stats{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* social midia footer */
+
+.social-media{
+    width: 20%;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.social-media ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media li a {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    transition: all 0.5s;
+    font-weight: bolder;
+}
+
+.social-media li a:hover {
+    color: #2ECC71;
+    background: #17202A;
+    box-shadow:  -6px 6px 12px #090d11,
+             6px -6px 12px #253343;
+    border-radius: 25px;
+    padding: 1rem;
+}
+
+.social-media li a svg {
+    height: 2rem;
+    fill: #2ECC71;
+}
+
+

@@ -1,9 +1,8 @@
 .container-contact{
     display: flex;
     justify-content: center;
-    height: 70vh;
-    padding: 5rem;
-    margin: 2rem;
+    align-items: center;
+    height: 100vh;
 }
 
 /* contatos config */
@@ -11,6 +10,7 @@
 .contact{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     flex-wrap: nowrap;
 }
@@ -19,16 +19,17 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin: 5rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 
 .contact-title h1{
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .contact-title p{
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 /* Configuração do formulario */
@@ -40,21 +41,26 @@
     flex-direction: column;
     flex-wrap: nowrap;
     padding: 5px;
+    background: #17202A;
+    box-shadow:  -6px 6px 12px #090d11,
+             6px -6px 12px #253343;
+    border-radius: 25px;
+    padding: 0.5rem;
     
 }
 
 input{
     font-family: inherit;
-    width: 50rem;
+    width: 20rem;
     border: 0;
     border-bottom: 2px solid #2ECC71;
     outline: 0;
-    font-size: 1.3rem;
+    font-size: 1rem;
     color: #fff;
-    padding: 7px 0;
+    padding: 5px 0;
     background: transparent;
     transition: border-color 0.2s;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     text-align: center;
 
 }
@@ -64,7 +70,7 @@ input::placeholder{
 }
 
 input:placeholder-shown{
-    font-size: 1.5rem;
+    font-size: 1rem;
     cursor: text;
     top: 30px;
 }
@@ -86,23 +92,20 @@ input:placeholder-shown{
 
 textarea{
     font-family: inherit;
-    width: 40rem;
+    width: 30rem;
     border: 0;
     border-bottom: 2px solid #2ECC71;
     outline: 0;
-    font-size: 1.3rem;
+    font-size: 0.8rem;
     color: #fff;
-    padding: 5px 0;
     background: transparent;
     transition: border-color 0.2s;
     margin-bottom: 5px;
-
 }
 
 textarea::placeholder{
     color: #2ECC71;
     text-align: center;
-    
 }
 
 textarea:hover{
@@ -111,17 +114,39 @@ textarea:hover{
 }
 
 button{
-    margin-top: 20px;
-    padding: 1rem;
-    border-radius: 5px;
-    cursor: pointer;
-    border-color: #2ECC71;
-}
-
-button:hover{
+    position: relative;
+    font-size: 1em;
+    padding: 0.5em 1em;
     background-color: #2ECC71;
+    text-decoration: none;
+    border: none;
+    border-radius: 0.5em;
+    color: #DEDEDE;
+    box-shadow: 0.5em 0.5em 0.5em #090d11;
+    margin-top: 1rem;
 }
 
-
+button::before {
+    position: absolute;
+    content: '';
+    height: 0;
+    width: 0;
+    top: 0;
+    left: 0;
+    background: linear-gradient(135deg, rgb(28, 40, 51) 0%, rgb(28, 40, 51) 50%, rgb(5, 192, 20) 50%, rgb(4, 191, 51) 60%);
+    border-radius: 0 0 0.5em 0;
+    box-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+  }
+  
+  button:hover::before {
+    width: 1.6em;
+    height: 1.6em;
+  }
+  
+  button:active {
+    box-shadow: 0.2em 0.2em 0.3em rgba(0, 0, 0, 0.3);
+    transform: translate(0.1em, 0.1em);
+  }
 
 
