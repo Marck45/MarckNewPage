@@ -23,18 +23,18 @@ span{
     text-decoration: line-through;
     font-family: 'La Belle Aurore',cursive;
     opacity: 0.5;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: bolder;
     margin-bottom: 1rem;
     background: #17202A;
     box-shadow:  -6px 6px 12px #090d11,
              6px -6px 12px #253343;
     border-radius: 25px;
-    padding: 0.1rem;
+    padding: 0.3rem;
 }
 
 .hi{
-    font-size: 3rem;
+    font-size: 2rem;
     transition: all 0.5s;
     margin-bottom: 20px;
     text-align: center;
@@ -50,7 +50,7 @@ span{
 }
 
 .marcos{
-    font-size: 4rem;
+    font-size: 3rem;
     transition: all 0.5s;
     margin-bottom: 20px;
 }
@@ -65,7 +65,7 @@ span{
 }
 
 .front{
-    font-size: 5rem;
+    font-size: 4rem;
     transition: all 0.5s;
     margin-bottom: 50px;
 }

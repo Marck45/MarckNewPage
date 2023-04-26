@@ -115,3 +115,44 @@ span{
     height: 40vh;
 }
 
+/* responsividade das skill tablets e grand mobile */
+
+@media (min-width:425px) and (max-width: 768px){
+
+    .second-text{
+        display: none;
+    }
+
+}
+
+
+@media (min-width:320px) and (max-width: 425px){
+
+    .page-inner{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 3rem;
+    }
+
+    .skills{
+        height: 20vh;
+        padding: 10px 10px 0px 10px;
+    }
+
+    .skills p{
+        display: none;
+    }
+    span{
+        display: none;
+    }
+
+    .skills-grafics{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+
+}
