@@ -1,22 +1,36 @@
 <div class="container-contact" id="contactPage">
+
   <div class="contact">
+
     <div class="contact-title">
+
       <h1>Entre em contato!</h1>
 
       <p>
         Estou interessado em trabalhos Freelacers, contrução de Landspages e Sites, porém caso queira contrubuição em outros trabalhos
         sinta-se a vontade para conversamos e entendemos melhor suas nescessidades!
       </p>
-    </div>
-    <div class="contact-form">
-      <form action="submit">
-        <input type="text" class="form__field" name="name" placeholder="Nome" id="name" required />
-        <input type="text" class="form__field" name="Email" id="Email" placeholder="E-mail" required />
-        <input type="text" class="form__field" name="Subject" id="subject" placeholder="Titulo" required />
-        <textarea name="Message" id="message" cols="30" rows="10" placeholder="Mensagem"></textarea>
 
-        <button class="btn-message">Enviar mensagem!!</button>
-      </form>
     </div>
+
+    <div class="contact-form">
+
+      <form action="submit" [formGroup]="formCliente" (ngSubmit)="onSubmit()">
+
+        <input type="text" class="form__field" name="name" placeholder="Nome" id="name" required formControlName="nome"/>
+
+        <input type="text" class="form__field" name="Email" id="Email" placeholder="E-mail" required  formControlName="email"/>
+
+        <input type="text" class="form__field" name="Subject" id="subject" placeholder="Titulo" required formControlName="titulo"/>
+
+        <textarea name="Message" id="message" cols="30" rows="10" placeholder="Mensagem" formControlName="mensagem"></textarea>
+
+        <button class="btn-message" type="submit">Enviar mensagem!!</button>
+
+      </form>
+
+    </div>
+
   </div>
+
 </div>
