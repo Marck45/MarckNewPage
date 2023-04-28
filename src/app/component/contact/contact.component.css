@@ -150,3 +150,18 @@ button::before {
   }
 
 
+
+  /* responsividade */
+
+  @media (min-width:320px) and (max-width: 425px){
+    input{
+        width: 15rem;
+    
+    }
+
+    textarea{
+        width: 15rem;
+        
+    }
+    
+  }
