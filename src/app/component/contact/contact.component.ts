@@ -44,6 +44,9 @@ export class ContactComponent implements OnInit {
 
     // Usar o método reset para limpar os controles na tela
     this.formCliente.reset(new  Cliente());
+
+    alert('Os dados foram cadastrados e enviados');
+
   }
 
 }

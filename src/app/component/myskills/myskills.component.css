@@ -1,6 +1,9 @@
 /* configuração geral */
 main{
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* layout da home */
@@ -49,7 +52,7 @@ span{
 
 .skills p{
     font-size: 1rem;
-    margin: 50px;
+    margin: 30px;
     transition: 0.8s;
 }
 
@@ -68,12 +71,8 @@ span{
     padding-right: 35px;
 }
 
-.grafic{
-    padding: 50px 0px 0px 0px;
-}
-
 .chart {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .chart span {
@@ -81,6 +80,7 @@ span{
     font-family: font-file-82132;
     margin-bottom: 7px;
     display: block;
+    padding: 0.3rem;
 }
 
 .chart footer {
