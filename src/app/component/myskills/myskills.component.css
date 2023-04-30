@@ -128,17 +128,22 @@ span{
 
 @media (min-width:320px) and (max-width: 425px){
 
+    #skillPage{
+        margin-top: 5rem;
+        height: 100vh;
+    }
+
     .page-inner{
         display: flex;
         justify-content: flex-start;
         align-items: center;
         flex-direction: column;
-        padding-top: 3rem;
+        margin-top: 250px;
     }
 
     .skills{
         height: 20vh;
-        padding: 50px 0px 0px 0px;
+        padding: 20px 0px 0px 0px;
     }
 
     .skills p{
@@ -150,9 +155,10 @@ span{
 
     .skills-grafics{
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-start;
+        align-items: flex-start;
         width: 80%;
+        padding: 0;
     }
 
 }
