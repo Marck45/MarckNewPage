@@ -23,9 +23,9 @@
 .logo-container img {
     height: 100%;
     border-radius: 25px;
-    background: #17202A;
-    box-shadow:  -6px 6px 12px #090d11,
-             6px -6px 12px #253343;
+    background: linear-gradient(315deg, #1e2b37, #19242e);
+    box-shadow:  -10px -10px 20px #0b1014,
+             10px 10px 20px #2d4052; 
 }
 
 /* status footer  */
@@ -63,14 +63,15 @@
     padding: 0px 20px;
     transition: all 0.5s;
     font-weight: bolder;
+    margin-right: 2rem;
 }
 
 .social-media li a:hover {
     color: #2ECC71;
-    background: #17202A;
-    box-shadow:  -6px 6px 12px #090d11,
-             6px -6px 12px #253343;
     border-radius: 25px;
+    background: linear-gradient(315deg, #1e2b37, #19242e);
+    box-shadow:  -10px -10px 20px #0b1014,
+             10px 10px 20px #2d4052; 
     padding: 1rem;
 }
 
@@ -79,6 +80,8 @@
     fill: #2ECC71;
 }
 
+
+/* responsividade mobile */
 
   @media (min-width:320px) and (max-width: 425px){
 
@@ -100,7 +103,38 @@
         }
 
         .social-media li a svg {
-            height: 1rem;
+            height: 0.7rem;
         }
+
+        .social-media li a {
+            
+            margin-right: 0.7rem;
+        }
+
+  }
+
+  /* responsividade tablet e medios */
+
+  @media (min-width:426px) and (max-width: 768px){
+
+    .logo-container{
+        display: none;
+    }
+
+    .stats{
+        width: 50%;
+        text-align: center;
+    }
+
+    .social-media{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .social-media li a svg {
+        height: 1.5rem;
+        
+    }
 
   }

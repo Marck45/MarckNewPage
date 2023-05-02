@@ -26,10 +26,10 @@ span{
     font-size: 18px;
     font-weight: bolder;
     margin-bottom: 1rem;
-    background: #17202A;
-    box-shadow:  -6px 6px 12px #090d11,
-             6px -6px 12px #253343;
     border-radius: 25px;
+    background: linear-gradient(315deg, #1e2b37, #19242e);
+    box-shadow:  -10px -10px 20px #0b1014,
+             10px 10px 20px #2d4052;
     padding: 0.3rem;
 }
 

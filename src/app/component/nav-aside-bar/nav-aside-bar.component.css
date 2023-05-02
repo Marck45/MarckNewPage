@@ -23,10 +23,10 @@
 
 .logo img {
   height: 90%;
-  border-radius: 25px;
-  background: #17202A;
-  box-shadow: -6px 6px 12px #090d11,
-    6px -6px 12px #253343;
+  border-radius: 26px;
+  background: linear-gradient(315deg, #1e2b37, #19242e);
+  box-shadow:  -10px -10px 20px #0b1014,
+             10px 10px 20px #2d4052;
 }
 
 .nav-bar {
@@ -67,11 +67,12 @@
 /* Change the link color to #111 (black) on hover */
 .nav-bar li a:hover {
   color: #2ECC71;
-  border-radius: 45rem;
-  background: #17202A;
-  box-shadow: -6px 6px 12px #090d11,
-    6px -6px 12px #253343;
+  border-radius: 25px;
+  background: linear-gradient(315deg, #1e2b37, #19242e);
+  box-shadow:  -10px -10px 20px #0b1014,
+             10px 10px 20px #2d4052;
   padding: 1rem;
+  min-width: 80px;
 }
 
 
@@ -106,14 +107,15 @@
   padding: 0px 20px;
   transition: all 0.5s;
   font-weight: bolder;
+  margin-right: 1.2rem;
 }
 
 .nav-social li a:hover {
   color: #2ECC71;
-  background: #17202A;
-  box-shadow: -6px 6px 12px #090d11,
-    6px -6px 12px #253343;
   border-radius: 25px;
+  background: linear-gradient(315deg, #1e2b37, #19242e);
+  box-shadow:  -10px -10px 20px #0b1014,
+             10px 10px 20px #2d4052;
 }
 
 .nav-social li a svg {
@@ -185,9 +187,10 @@ label input {
 }
 
 label input:checked+.menu {
-  box-shadow: -6px 6px 12px #090d11,
-    6px -6px 12px #253343;
   border-radius: 25px;
+  background: linear-gradient(315deg, #1e2b37, #19242e);
+  box-shadow:  -10px -10px 20px #0b1014,
+             10px 10px 20px #2d4052;
 
 }
 
@@ -232,9 +235,10 @@ label a {
   display: block;
   color: #2ECC71;
   text-decoration: none;
-  box-shadow: -6px 6px 12px #090d11,
-    6px -6px 12px #253343;
   border-radius: 25px;
+  background: linear-gradient(315deg, #1e2b37, #19242e);
+  box-shadow:  -10px -10px 20px #0b1014,
+             10px 10px 20px #2d4052;
   width: 200px;
   font-size: 1.5rem;
   border: none;
