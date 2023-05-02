@@ -40,13 +40,13 @@
 
   <div class="menu-burger">
     <label>
-      <input type="checkbox">
-      <span class="menu"> <span class="hamburger"></span> </span>
-      <ul>
-        <li><a href="#homePage">Inicio</a></li>
-        <li><a href="#skillPage">Skills</a></li>
-        <li><a href="#workPage">Projetos</a></li>
-        <li><a href="#contactPage">Contato</a></li>
+      <input type="checkbox" id="checkBurger">
+      <span class="menu"><span class="hamburger"></span> </span>
+      <ul id="burger">
+        <li><a href="#homePage" (click)="closeMenu()">Inicio</a></li>
+        <li><a href="#skillPage" (click)="closeMenu()">Skills</a></li>
+        <li><a href="#workPage" (click)="closeMenu()">Projetos</a></li>
+        <li><a href="#contactPage" (click)="closeMenu()">Contato</a></li>
       </ul>
       </label>
  </div>
