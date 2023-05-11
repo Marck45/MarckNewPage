@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    padding-top: 2rem;
 }
 
 /* contatos config */
@@ -31,7 +32,7 @@
 
 .contact-title p{
     font-size: 1rem;
-    width: 80%;
+    width: 60%;
 }
 
 /* Configuração do formulario */
@@ -50,32 +51,33 @@
 }
 
 input{
-    font-family: inherit;
     width: 20rem;
     border: 0;
     border-bottom: 2px solid #2ECC71;
     outline: 0;
     font-size: 1rem;
-    color: #fff;
     padding: 5px 0;
-    background: transparent;
-    transition: border-color 0.2s;
-    margin-bottom: 15px;
+    transition: 0.4s;
+    margin-bottom: 25px;
     text-align: center;
+    border-radius: 25px;
+    background: #2ECC71;
+    box-shadow: inset 19px 19px 38px #208d4e,
+            inset -19px -19px 38px #3cff94;
 
 }
 
 input::placeholder{
-    color: #2ECC71;
+    color: #fff;
 }
 
 input:placeholder-shown{
     font-size: 1rem;
     cursor: text;
-    top: 30px;
+    top: 20px;
 }
 
-.form__field:focus{
+.form__field:hover{
     padding-bottom: 15px;  
     font-weight: 700;
     border-width: 3px;
@@ -96,23 +98,35 @@ textarea{
     border: 0;
     border-bottom: 2px solid #2ECC71;
     outline: 0;
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: #fff;
-    background: transparent;
-    transition: border-color 0.2s;
+    transition:0.4s;
     margin-bottom: 5px;
+    border-radius: 25px;
+    background: #2ECC71;
+    box-shadow: inset 19px 19px 38px #208d4e,
+            inset -19px -19px 38px #3cff94;
 }
 
 textarea::placeholder{
-    color: #2ECC71;
+    color: #fff;
     text-align: center;
+    padding-top: 25px;
+    font-size: 1rem;
 }
 
 textarea:hover{
+    padding-bottom: 15px;  
+    font-weight: 700;
+    border-width: 3px;
+    border-image: linear-gradient(to right, #fff);
+    border-image-slice: 1;
     -webkit-filter: drop-shadow(15px 10px 5px #2ECC71);
     filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
 }
 
+
+/* butao subimit */
 button{
     position: relative;
     font-size: 1em;
@@ -121,7 +135,7 @@ button{
     text-decoration: none;
     border: none;
     border-radius: 0.5em;
-    color: #DEDEDE;
+    color: #fff;
     box-shadow: 0.5em 0.5em 0.5em #090d11;
     margin-top: 1rem;
 }
